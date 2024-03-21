@@ -4,7 +4,7 @@ Perhaps there is another way to get information about the observers, but so far 
 
 # Installation
 Installing the plugin consists of several steps:
-1. [Download]() this plugin;
+1. [Download](https://github.com/kekekekkek/SpectatorList/archive/refs/heads/main.zip) this plugin;
 2. Go to the directory `..\Sven Co-op\svencoop\scripts\plugins` and place the `Spectators.as` plugin here;
 3. Next, go to the `..\Sven Co-op\svencoop` folder and find there the text file `default_plugins.txt`;
 4. Open this file and paste the following text into it:
@@ -29,8 +29,8 @@ When you start the game and connect to your server, you will have the following 
 
 # Screenshots
 * Screenshot 1<br><br>
-![Screenshot_1]()
+![Screenshot_1](https://github.com/kekekekkek/SpectatorList/blob/main/Images/Screenshot_1.png)
 * Screenshot 2<br><br>
-![Screenshot_2]()
+![Screenshot_2](https://github.com/kekekekkek/SpectatorList/blob/main/Images/Screenshot_2.png)
 * Screenshot 3<br><br>
-![Screenshot_3]()
+![Screenshot_3](https://github.com/kekekekkek/SpectatorList/blob/main/Images/Screenshot_3.png)
