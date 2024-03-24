@@ -32,8 +32,9 @@ void PluginInit()
 	g_Module.ScriptInfo.SetContactInfo("https://github.com/kekekekkek/SpectatorList");
 	
 	g_Hooks.RegisterHook(Hooks::Player::ClientSay, @ClientSay);
-	g_Hooks.RegisterHook(Hooks::Player::PlayerPreThink, @PlayerPreThink);
+	g_Hooks.RegisterHook(Hooks::Player::ClientDisconnect, @ClientDisconnect);
 	
+	g_Hooks.RegisterHook(Hooks::Player::PlayerPreThink, @PlayerPreThink);
 	strSpectators.resize(g_Engine.maxClients);
 }
 
@@ -173,5 +174,11 @@ HookReturnCode PlayerPreThink(CBasePlayer@ pPlayer, uint& out)
 		}
 	}
 
+	return HOOK_CONTINUE;
+}
+
+HookReturnCode ClientDisconnect(CBasePlayer@ pPlayer)
+{
+	strSpectators[g_EntityFuncs.EntIndex(pPlayer.edict())].Clear();
 	return HOOK_CONTINUE;
 }
