@@ -25,6 +25,7 @@ When you start the game and connect to your server, you will have the following 
 | `.sl_ao`, `/sl_ao` or `!sl_ao` | `0` | `1` | `0` | Allows you to enable this feature only for admins or for all players. (`AdminsOnly`)<br>`0 - For everyone;`<br>`1 - Admins only.` | Usage: `.sl_ao or /sl_ao or !sl_ao <adminsonly>.` Example: `!sl_ao 0` |
 
 **REMEMBER**: This plugin has problems and may crash sometimes.<br>
+**REMEMBER**: The plugin may conflict with other plugins.<br>
 **REMEMBER**: Observers are displayed only for a live player.<br>
 **REMEMBER**: It may also be worth using another function instead of `HudMessage` to display a list with observers.<br>
 
